@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial,sans-serif;
+    line-height: 1.6;
+    background-color: rgb(215, 153, 254);
+    color: black;
+}
+
+header{
+    background-color: rgb(184, 145, 251);
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: black;
+}
+
+section{
+    padding: 20px;
+    margin: 20px;
+    background: rgb(213, 114, 213);
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+label[for="message"]
+{
+        display: block;
+        margin-bottom: 8px;
+}  
+
+.project{
+    margin: 10px 0;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(215, 153, 254);
+    color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
